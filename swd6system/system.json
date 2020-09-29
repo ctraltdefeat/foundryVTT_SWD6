@@ -22,7 +22,7 @@
   "primaryTokenAttribute": "null",
   "secondaryTokenAttribute": "null",
   "url": "",
-  "manifest": "",
+  "manifest": "https://github.com/ctraltdefeat/foundryVTT_SWD6/blob/master/swd6system/system.json",
   "download": "",
   "license": "LICENSE.txt"
 }
