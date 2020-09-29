@@ -21,8 +21,8 @@
   "gridUnits": "ft",
   "primaryTokenAttribute": "null",
   "secondaryTokenAttribute": "null",
-  "url": "",
-  "manifest": "https://github.com/ctraltdefeat/foundryVTT_SWD6/blob/master/swd6system/system.json",
-  "download": "",
+  "url": "https://github.com/ctraltdefeat/foundryVTT_SWD6",
+  "manifest": "https://raw.githubusercontent.com/ctraltdefeat/foundryVTT_SWD6/master/swd6system/system.json",
+  "download": "https://github.com/ctraltdefeat/foundryVTT_SWD6/archive/master.zip",
   "license": "LICENSE.txt"
 }
