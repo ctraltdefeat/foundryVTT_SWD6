@@ -21,8 +21,8 @@
   "gridUnits": "ft",
   "primaryTokenAttribute": "null",
   "secondaryTokenAttribute": "null",
-  "url": "https://gitlab.com/foundrynet/worldbuilding/",
-  "manifest": "https://gitlab.com/foundrynet/worldbuilding/raw/master/system.json",
-  "download": "https://gitlab.com/foundrynet/worldbuilding/-/archive/release-036/worldbuilding-release-036.zip",
+  "url": "",
+  "manifest": "",
+  "download": "",
   "license": "LICENSE.txt"
 }
