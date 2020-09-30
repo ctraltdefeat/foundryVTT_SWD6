@@ -38,9 +38,6 @@ export class SimpleActorSheet extends ActorSheet {
     // Handle rollable items.
     html.find(".items .rollable").on("click", this._onItemRoll.bind(this));
 
-    // Handle rollable attributes.
-    html.find(".attributes").on("click", "a.attribute-roll", this._onAttributeRoll.bind(this));
-
     // Everything below here is only needed if the sheet is editable
     if ( !this.options.editable ) return;
 
