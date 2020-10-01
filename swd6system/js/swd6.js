@@ -20,7 +20,7 @@ import { createWorldbuildingMacro, rollAttrMacro } from "./macro.js";
  * Init hook.
  */
 Hooks.once("init", async function() {
-  console.log(`Initializing Simple Worldbuilding System`);
+  console.log(`Initializing Star Wars D6 System`);
 
   /**
    * Set an initiative formula for the system. This will be updated later.
