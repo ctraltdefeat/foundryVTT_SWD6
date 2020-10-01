@@ -1,4 +1,4 @@
-import { ATTRIBUTE_TYPES } from "./constants.js.js";
+import { ATTRIBUTE_TYPES } from "./constants.js";
 
 /**
  * Extend the basic ItemSheet with some very simple modifications
