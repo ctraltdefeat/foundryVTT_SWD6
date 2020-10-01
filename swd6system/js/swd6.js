@@ -243,7 +243,7 @@ async function _simpleDirectoryTemplates(entityType = 'actor') {
 
     // Render the entity creation form
     let templateData = {upper: ent, lower: ent.toLowerCase(), types: types},
-        dlg = await renderTemplate(`systems/worldbuilding/templates/sidebar/entity-create.html`, templateData);
+        dlg = await renderTemplate(`systems/swd6system/templates/sidebar/entity-create.html`, templateData);
 
     // Render the confirmation dialog window
     Dialog.confirm({

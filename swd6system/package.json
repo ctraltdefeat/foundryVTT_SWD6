@@ -1,7 +1,7 @@
 {
   "name": "swd6system",
   "version": "1.0.0",
-  "description": "CSS compiler for the Worldbuilding system",
+  "description": "CSS compiler for the Star Wars D6 system",
   "scripts": {
     "css": "gulp css",
     "watch": "gulp",
