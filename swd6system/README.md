@@ -1,1 +1,0 @@
-# Star Wars D6 game system for Foundry VTT
