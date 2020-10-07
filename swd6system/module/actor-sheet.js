@@ -9,8 +9,8 @@ export class SimpleActorSheet extends ActorSheet {
   /** @override */
   static get defaultOptions() {
     return mergeObject(super.defaultOptions, {
-      classes: ["worldbuilding", "sheet", "actor"],
-      template: "systems/worldbuilding/templates/actor-sheet.html",
+      classes: ["swd6system", "sheet", "actor"],
+      template: "systems/swd6system/templates/actor-sheet.html",
       width: 600,
       height: 600,
       tabs: [{navSelector: ".sheet-tabs", contentSelector: ".sheet-body", initial: "description"}],
@@ -65,7 +65,7 @@ export class SimpleActorSheet extends ActorSheet {
     });
 
     // Add shorthand.
-    data.shorthand = !!game.settings.get("worldbuilding", "macroShorthand");
+    data.shorthand = !!game.settings.get("swd6system", "macroShorthand");
     return data;
   }
 

@@ -1,22 +1,22 @@
 /**
  * Create a Macro from an attribute drop.
- * Get an existing worldbuilding macro if one exists, otherwise create a new one.
+ * Get an existing swd6system macro if one exists, otherwise create a new one.
  * @param {Object} data     The dropped data
  * @param {number} slot     The hotbar slot to use
  * @returns {Promise}
  */
-export async function createWorldbuildingMacro(data, slot) {
+export async function createswd6systemMacro(data, slot) {
   const item = data;
 
   // Create the macro command
-  const command = `game.worldbuilding.rollAttrMacro("${item.label}", "${item.roll}");`;
+  const command = `game.swd6system.rollAttrMacro("${item.label}", "${item.roll}");`;
   let macro = game.macros.entities.find(m => (m.name === item.label) && (m.command === command));
   if (!macro) {
     macro = await Macro.create({
       name: item.label,
       type: "script",
       command: command,
-      flags: { "worldbuilding.attrMacro": true }
+      flags: { "swd6system.attrMacro": true }
     });
   }
 

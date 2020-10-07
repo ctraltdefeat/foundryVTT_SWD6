@@ -2,7 +2,7 @@
   "name": "swd6system",
   "title": "Star Wars D6",
   "description": "Star Wars D6 System from West End Games. Base Worldbuilding System credit to Atropos. No Copyright infringement is intended.",
-  "version": 0.001,
+  "version": 0.002,
   "minimumCoreVersion": "0.5.6",
   "compatibleCoreVersion": "0.8.0",
   "templateVersion": 2,
